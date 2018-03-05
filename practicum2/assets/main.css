@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Open+Sans');
+
+body {
+margin: 0;
+padding: 0;
+font-family: 'Open Sans', sans-serif;;
+font-size: 14px; 
+font-weight: 400; 
+background-color: #F0F1E0; 
+background-size: cover;
+color: #5C0120;
+}
+
+h1 {
+  font-family: 'Francois One', sans-serif;
+  font-weight: 400i;
+  margin-left: 50px;
+  margin-top: 70px;
+  font-size: 40px;}
+
+.nav {
+   margin-left: 50px;
+   margin-bottom: 20px;
+}
+
+.nav-item_link {
+  background-color: #F1DF8E;
+  border-radius: 30px;
+  color: #5C0120;
+  text-decoration: none;
+  padding: 10px 12px;}
+
+
+.nav-item_link:hover {
+  background-color:#D1F1E0;}
+
+.knop:hover {
+  background-color: #D1F1E0;}
+
+img {
+  width: 90%;
+  height: 90%;
+  padding: 15px;
+  display: flex;
+  margin-left: 20px;
+}
+
+.pictures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+p {
+  margin-left: 50px;
+}
